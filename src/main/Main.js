@@ -11,6 +11,7 @@ const Main = props => {
         <h3 className="title-description">Front End Developer</h3>
         <div>
           <a
+            name="github-link"
             target="_blank"
             rel="noopener noreferrer"
             href="https://github.com/Claytonhart"
@@ -18,6 +19,7 @@ const Main = props => {
             <i className="fa fa-github" aria-hidden="true" />
           </a>
           <a
+            name="linkedin-link"
             target="_blank"
             rel="noopener noreferrer"
             href="https://www.linkedin.com/in/clayton-hart-3a50a716b/"
@@ -25,6 +27,7 @@ const Main = props => {
             <i className="fa fa-linkedin-square" aria-hidden="true" />
           </a>
           <a
+            name="email-link"
             target="_blank"
             rel="noopener noreferrer"
             href="mailto:claytonhart345@gmail.com"
@@ -33,7 +36,7 @@ const Main = props => {
           </a>
         </div>
         <div className="title-down-arrow">
-          <AnchorLink href="#projects">
+          <AnchorLink name="scroll-down" href="#projects">
             <i className="fa fa-arrow-down" aria-hidden="true" />
           </AnchorLink>
         </div>
