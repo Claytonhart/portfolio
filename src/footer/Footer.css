@@ -12,6 +12,10 @@ footer span {
   text-decoration: underline;
 }
 
+.footer-resume-link {
+  color: #fff;
+}
+
 @media only screen and (max-width: 600px) {
   footer {
     font-size: 1.2rem;

@@ -12,7 +12,7 @@ const Projects = () => {
   const p1 = {
     title: "Playlist Converter",
     tech: "React, Redux, React Router, Redux Thunk, HTML5, CSS3",
-    description: `This Playlist Converter was a project intially designed to convert my
+    description: `This Playlist Converter was a project initially designed to convert my
     music library from Youtube to Spotify. It grew to accommodate four platforms which
     each have a public api with client side authentication and authorization. I'd like
     to include services such as Google Music, Soundcloud, Amazon Music, etc. However, 
@@ -28,7 +28,7 @@ const Projects = () => {
     tech: "React, React Router, HTML5, CSS3",
     description: `Book Search pulls from the Google Books api to allow users to search for
     any book by title. Unfortunately, the api is rather limited and does not allow much
-    customization of search paramaters, however, the intent of the project was to practice
+    customization of search parameters, however, the intent of the project was to practice
     flexbox and responsive design in the React ecosystem.`,
     image: booksearchimage,
     webLink: "https://claytonhart.github.io/book-search/",
