@@ -3,6 +3,7 @@ import React from "react";
 import "./Projects.css";
 
 import playlistconverterimage from "../images/playlist-converter-small.jpg";
+import landingimage from "../images/landing-page-small.jpg";
 import booksearchimage from "../images/book-search-small.jpg";
 import cryptogramimage from "../images/cryptogram-small.jpg";
 
@@ -24,6 +25,15 @@ const Projects = () => {
   };
 
   const p2 = {
+    title: "Landing Page",
+    tech: "React, HTML5, CSS3, SASS, SCSS",
+    description: `This project was an anonymized recreation of the avenueliving.ca home page. It was my first project using Sass, with a focus on clean components and reusable CSS.`,
+    image: landingimage,
+    webLink: "https://claytonhart.github.io/sass-test/",
+    gitLink: "https://github.com/Claytonhart/sass-test"
+  };
+
+  const p3 = {
     title: "Book Search",
     tech: "React, React Router, HTML5, CSS3",
     description: `Book Search pulls from the Google Books api to allow users to search for
@@ -35,7 +45,7 @@ const Projects = () => {
     gitLink: "https://github.com/Claytonhart/book-search"
   };
 
-  const p3 = {
+  const p4 = {
     title: "Cryptograms",
     tech: "React, HTML5, CSS3",
     description: `This simple Cryptogram creator encrypts a random short quote with a 
@@ -52,6 +62,7 @@ const Projects = () => {
       <ProjectCard project={p1} />
       <ProjectCard project={p2} />
       <ProjectCard project={p3} />
+      <ProjectCard project={p4} />
     </section>
   );
 };
