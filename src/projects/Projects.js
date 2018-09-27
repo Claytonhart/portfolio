@@ -27,7 +27,7 @@ const Projects = () => {
 
   const p2 = {
     title: "Cryptocurrency Dashboard (WIP)",
-    tech: "React, HTML5, CSS3, Highcharts",
+    tech: "React, HTML5, CSS3, SASS, Highcharts",
     description: `Cryptocurrency Dashboard is a simple example of a single page dashboard 
     which allows users to search a database of over 3,000 cryptocurrencies and see their 
     price history and most recent price snapshots. Currently a work in progress with most 
