@@ -26,24 +26,24 @@ const Projects = () => {
   };
 
   const p2 = {
-    title: "Cryptocurrency Dashboard (WIP)",
+    title: "Cryptocurrency Dashboard",
     tech: "React, HTML5, CSS3, SASS, Highcharts",
     description: `Cryptocurrency Dashboard is a simple example of a single page dashboard 
     which allows users to search a database of over 3,000 cryptocurrencies and see their 
     price history and most recent price snapshots. Currently a work in progress with most 
     of the functionality to be implemented.`,
     image: cryptocurrencyimage,
-    webLink: "https://claytonhart.github.io/cryptocurrency/",
-    gitLink: "https://github.com/Claytonhart/cryptocurrency/"
+    webLink: "https://claytonhart.github.io/cryptocurrency-dashboard/",
+    gitLink: "https://github.com/Claytonhart/cryptocurrency-dashboard/"
   };
 
   const p3 = {
-    title: "Landing Page",
+    title: "Simple Landing Page",
     tech: "React, HTML5, CSS3, SASS, SCSS",
     description: `This project was an anonymized recreation of the avenueliving.ca home page. It was my first project using Sass, with a focus on clean components and reusable CSS.`,
     image: landingimage,
-    webLink: "https://claytonhart.github.io/sass-test/",
-    gitLink: "https://github.com/Claytonhart/sass-test"
+    webLink: "https://claytonhart.github.io/simple-landing-page/",
+    gitLink: "https://github.com/Claytonhart/simple-landing-page/"
   };
 
   // const p3 = {
